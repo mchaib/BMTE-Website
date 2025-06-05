@@ -1,0 +1,54 @@
+<div id="footer" class="panel">
+  <div class="panel-footer">
+	<div class="container-fluid">
+	  <div class="row">
+		<div class="col-sm-4">
+
+
+
+{%if page.lang == "es" %}
+              <p>&copy {{ site.time | date: '%Y' }}  BMTE Grupo de Investigación.</p>
+              <p>Esta es una iniciativa para publicar los avances del grupo de investigación de Biología Molecular Teórica y Evolutiva <a href="http://www.hermes.unal.edu.co/">(BMTE)</a> en la <a href="https://ciencias.bogota.unal.edu.co/estudiar_en_la_facultad/pregrados/biologia/">Universidad Nacional sede Bogotá</a>.</p>
+                   <p>  </p><p>
+                </div>
+                <div class="col-sm-4">
+                  Principal benefactor:<br />
+                  - <a href="https://unal.edu.co/">Universidad Nacional sede Bogotá</a> <br />
+                </div>
+                <div class="col-sm-4">
+                  Lugar Principal:<br />
+                  Universidad Nacional<br />
+                  Carrera 45 N° 26-85 - Edificio Uriel Gutiérrez<br />
+                  Bogotá<br />
+                  Colombia<br />
+            (<a href="https://maps.app.goo.gl/6fwE3pHMoeuEHbPZ7">Maps</a>, <a href="https://bogota.unal.edu.co/">UNAL sede Bogotá</a>)
+
+
+{% else %}
+ <p>&copy {{ site.time | date: '%Y' }}  BMTE Research Group.</p>
+              <p>This is an initiative to publish the advancements of the BMTE (Theoretical and Evolutionary Molecular Biology)<a href="http://www.hermes.unal.edu.co/">Research group</a> at <a href="https://ciencias.bogota.unal.edu.co/estudiar_en_la_facultad/pregrados/biologia/">Universidad Nacional sede Bogotá</a>.</p>
+		   <p>  </p><p>
+		</div>
+		<div class="col-sm-4">
+		  Main sponsor:<br />
+		  - <a href="https://unal.edu.co/">Universidad Nacional sede Bogotá</a> <br />
+		</div>
+		<div class="col-sm-4">
+		  Contact:<br />
+		  Universidad Nacional<br />
+		  Carrera 45 N° 26-85 - Edificio Uriel Gutiérrez<br />
+		  Bogotá<br />
+		  Colombia<br />
+            (<a href="https://maps.app.goo.gl/6fwE3pHMoeuEHbPZ7">Maps</a>, <a href="https://bogota.unal.edu.co/">UNAL sede Bogotá</a>)
+{% endif %}
+
+
+
+	</div>
+	  </div>
+	</div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="{{ site.url }}{{ site.baseurl }}/js/bootstrap.min.js"></script>

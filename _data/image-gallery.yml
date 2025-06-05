@@ -1,0 +1,31 @@
+- name: Image 1
+  photo: BMTE_Proyecto1.jpeg
+  key: bio2025-smh
+
+- name: Image 2
+  photo: BMTE_Proyecto2.jpg
+  key: bio2025-cup
+
+- name: Image 3
+  photo: BMTE_Proyecto3.png
+  key: bio2025-ebs
+
+- name: Image 4
+  photo: BMTE_Proyecto4.jpeg
+  key: bio2025-iesrna
+
+- name: Image 5
+  photo: BMTE_Proyecto5.png
+  key: bio2025-cgd
+
+- name: Image 6
+  photo: SynBio_Proyecto1.png
+  key: bio2025-cmp
+
+- name: Image 7
+  photo: SynBio_Proyecto3.png
+  key: bio2025-dmm
+
+- name: Image 8
+  photo: SynBio_Proyecto4.jpeg
+  key: bio2025-cae
