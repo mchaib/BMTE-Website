@@ -42,10 +42,10 @@
  <div class="language-switcher">
   {% assign cur = page.url %}
   {% if page.lang == "es" %}
-    {%- assign alt = cur | remove_first: "/es" -%}
+    {%- assign alt = cur | remove_first: "es" -%}
     <a href="{{site.url}}{{site.baseurl}}{{ alt }}">🇬🇧 / Eng</a>
   {% else %}
-    <a href="{{site.url}}{{site.baseurl}}{{ cur }}/es">🇪🇸 / ESP</a>
+    <a href="{{site.url}}{{site.baseurl}}es/{{ cur }}">🇪🇸 / ESP</a>
   {% endif %}
 </div>
 
