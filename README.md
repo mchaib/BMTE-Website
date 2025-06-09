@@ -1,3 +1,5 @@
+##### Main project has been developed by [Bryan Wilches](https://github.com/BryanWV)
+
 # Getting started
 
 ## Introduction
@@ -72,5 +74,3 @@ This website is powered by Jekyll and some Bootstrap, Bootwatch.
 
 Note: The initial template was taken from the [Uppsala University research group](https://github.com/uslc-lab/uslc-lab.github.io/tree/main) available on Github
 Code released under the MIT License.
-
-## Main project developed by [Bryan Wilches](https://github.com/BryanWV)
