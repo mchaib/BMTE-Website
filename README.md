@@ -1,4 +1,4 @@
-##### Main project has been developed by [Bryan Wilches](https://github.com/BryanWV)
+#### Main project has been developed by [Bryan Wilches](https://github.com/BryanWV)
 
 # Getting started
 
