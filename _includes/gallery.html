@@ -14,11 +14,11 @@
 <div class="image-gallery">
 {%for img in site.data.image-gallery %}
 {% if page.lang == "es" %}
-<a href ="{{ site.url }}{{ site.baseurl }}/es/allprojects/#{{img.key}}">
+<a href ="{{ site.url }}{{ site.baseurl }}/es/allprojects#{{img.key}}">
             <img src="{{ site.url }}{{ site.baseurl }}/images/mini-gallery/{{ img.photo }}" class="img-responsive" alt="img.name" />
 </a>
 {% else %}
-<a href ="{{ site.url }}{{ site.baseurl }}/allprojects/#{{img.key}}">
+<a href ="{{ site.url }}{{ site.baseurl }}/allprojects#{{img.key}}">
             <img src="{{ site.url }}{{ site.baseurl }}/images/mini-gallery/{{ img.photo }}" class="img-responsive" alt="img.name" />
 </a>
 {% endif %}
